@@ -91,3 +91,28 @@
     width: 200px;
     border-radius: 16px !important;
 }
+
+/* estilos de peliculas.html */
+.page-header {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.card {
+    transition: 0.35s;
+}
+
+.card-img-top {
+    height: 392px;
+}
+
+.card-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+}
+
+.card-sequel {
+    filter: grayscale();
+}
