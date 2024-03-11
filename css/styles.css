@@ -34,7 +34,7 @@
 .main-section-img {
     background-image: url(https://e00-marca.uecdn.es/assets/multimedia/imagenes/2023/05/04/16831803848910.jpg);
     height: 50dvh;
-    width: 70dvw;
+    width: 65dvw;
     background-position: center;
     background-size: cover;
     border-radius: 16px !important;
@@ -67,6 +67,15 @@
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
     padding: 16px;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .info-general p {
+        padding: auto;
+        margin: auto;
+        max-width: 800px;
+    }
 }
 
 .end-phrase p {
