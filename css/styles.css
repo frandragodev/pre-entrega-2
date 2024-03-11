@@ -8,17 +8,34 @@
     box-sizing: border-box;
 }
 
+/* estilos de navbar */
+.navbar-brand {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 40px;
+}
+
+.nav-link {
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+}
+
+.active {
+    color: yellow !important;
+    text-shadow: 0 0 12px yellow;
+}
+
 /* home */
-main {
+.main-content-index {
     background-image: url(https://r4.wallpaperflare.com/wallpaper/1005/822/563/star-wars-death-star-at-at-space-wallpaper-abe6bced53f1bfb9a5847bf93dac5c90.jpg);
     background-size: cover;
     background-position: center;
 }
 
+
 .main-section-img {
     background-image: url(https://e00-marca.uecdn.es/assets/multimedia/imagenes/2023/05/04/16831803848910.jpg);
     height: 50dvh;
-    width: 90dvw;
+    width: 50dvw;
     background-position: center;
     background-size: cover;
 }
