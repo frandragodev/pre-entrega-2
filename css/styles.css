@@ -24,18 +24,63 @@
     text-shadow: 0 0 12px yellow;
 }
 
-/* home */
+/* estilos de index.html */
 .main-content-index {
     background-image: url(https://r4.wallpaperflare.com/wallpaper/1005/822/563/star-wars-death-star-at-at-space-wallpaper-abe6bced53f1bfb9a5847bf93dac5c90.jpg);
     background-size: cover;
     background-position: center;
 }
 
-
 .main-section-img {
     background-image: url(https://e00-marca.uecdn.es/assets/multimedia/imagenes/2023/05/04/16831803848910.jpg);
     height: 50dvh;
-    width: 50dvw;
+    width: 70dvw;
     background-position: center;
     background-size: cover;
+    border-radius: 16px !important;
+    transition: 0.35s;
+}
+
+.hero-section h1 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 32px;
+}
+
+.hero-section p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    padding: 16px;
+}
+
+.btn a {
+    color: white !important;
+}
+
+.info-general p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    padding: 16px;
+}
+
+.end-phrase p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 32px;
+    color: greenyellow !important;
+    text-shadow: 0 0 12px greenyellow;
+    padding: 16px;
+}
+
+.end-phrase h3 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.end-phrase-img {
+    background-image: url(https://static.wikia.nocookie.net/shaniverse/images/9/92/Jinn.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 16px !important;
 }
