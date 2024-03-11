@@ -7,3 +7,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* home */
+main {
+    background-image: url(https://r4.wallpaperflare.com/wallpaper/1005/822/563/star-wars-death-star-at-at-space-wallpaper-abe6bced53f1bfb9a5847bf93dac5c90.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.main-section-img {
+    background-image: url(https://e00-marca.uecdn.es/assets/multimedia/imagenes/2023/05/04/16831803848910.jpg);
+    height: 50dvh;
+    width: 90dvw;
+    background-position: center;
+    background-size: cover;
+}
