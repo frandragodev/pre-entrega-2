@@ -181,3 +181,104 @@
 .btn-secondary:hover {
     transform: scale(1.05);
 }
+
+/* estilos de personajes.html */
+.pj-card-1 {
+    display: flex;
+    align-items: end;
+    margin: auto;
+    padding: 20px;
+    height: 80dvh;
+    width: 100vh;
+    background-image: url(https://i.blogs.es/e85ed7/hayden-christensen-star-wars/1366_2000.jpeg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    transition: 0.35s;
+}
+
+.pj-card-1:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 64px rgba(255, 255, 255, 0.2);
+}
+
+.pj-card-2 {
+    display: flex;
+    align-items: end;
+    margin: auto;
+    padding: 20px;
+    height: 80dvh;
+    width: 100vh;
+    background-image: url(https://pipocamoderna.com.br/storage/2022/05/obi-wan-kenobi.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    transition: 0.35s;
+}
+
+.pj-card-2:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 64px rgba(255, 255, 255, 0.2);
+}
+
+.pj-card-3 {
+    display: flex;
+    align-items: end;
+    margin: auto;
+    padding: 20px;
+    height: 80dvh;
+    width: 100vh;
+    background-image: url(https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2019/11/star-wars-nueva-esperanza-luke-skywalker.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    transition: 0.35s;
+}
+
+.pj-card-3:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 64px rgba(255, 255, 255, 0.2);
+}
+
+.pj-card-4 {
+    display: flex;
+    align-items: end;
+    margin: auto;
+    padding: 20px;
+    height: 80dvh;
+    width: 100vh;
+    background-image: url(https://lumiere-a.akamaihd.net/v1/images/leia-organa-main_9af6ff81.jpeg);
+    background-position: center;
+    border-radius: 16px;
+    transition: 0.35s;
+}
+
+.pj-card-4:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 64px rgba(255, 255, 255, 0.2);
+}
+
+.pj-card-5 {
+    display: flex;
+    align-items: end;
+    margin: auto;
+    padding: 20px;
+    height: 80dvh;
+    width: 100vh;
+    background-image: url(https://www.starwarsnewsnet.com/wp-content/uploads/2023/08/Ahsoka-Mandalorian-Rosario-Dawson-e1690963140716.jpeg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    transition: 0.35s;
+}
+
+.pj-card-5:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 64px rgba(255, 255, 255, 0.2);
+}
+
+.pj-container {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 12px;
+}
